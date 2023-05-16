@@ -1,0 +1,19 @@
+https://www.youtube.com/watch?v=bCf4N53Uw2k
+
+La traslación, el escalado y la rotación son transformaciones geométricas usadas con frecuencia en el campo de la informática gráfica. Estas transformaciones juegan un papel fundamental en la construcción y edición de todo tipo de imágenes digitales. Por ello, no es de extrañar que opciones como la rotación o el zoom habituales en cualquier software CAD o de edición de imágenes, se basen en transformaciones geométricas. Otras aplicaciones de estas herramientas matemáticas están relacionadas con la creación de objetos animados, ya sea en el campo de los vídeo-juegos (movimientos de 'cámara' característicos de juegos como Half Life 2) o en el campo científico- técnico, con objeto de estudiar sus propiedades cinemáticas y dinámicas.
+
+Es importante notar que la transformación de un punto representa el núcleo central en cualquier transformación geométrica. Ello se debe a que el punto es el elemento geométrico básico de cualquier objeto 2D y 3D. Así, por ejemplo, un segmento de línea recta viene unívocamente determinado por sus puntos inicial y final. Por su parte, también las curvas, superficies y sólidos se pueden representar (de forma exacta o aproximada, según el caso) mediante una colección de puntos. De este modo, la transformación de un conjunto de puntos da como resultado la transformación de una línea, de una curva, de una superficie o, incluso, de un sólido.
+
+En este módulo se explicará la relación existente entre la teoría de matrices y las transformaciones geométricas citadas, y se mostrará cómo es posible aplicar traslaciones, escalados y rotaciones a objetos 2D y 3D, son solo realizar productos de matrices.
+
+Ejemplo introductorio: En informática gráfica aparece con frecuencia la necesidad de aplicar transformaciones geométricas a un objeto determinado por sus vértices. Así, por ejemplo, dado un poliedro en 3D definido por sus vértices, podríamos estar interesados en hallar las nuevas coordenadas de dichos vértices tras aplicar una combinación de traslaciones, rotaciones y escalados (en cualquier orden), ya que a partir de estas nuevas coordenadas nos será posible 're-dibujar' el objeto en la pantalla.
+
+https://quark.academy/pluginfile.php/2408/mod_label/intro/imagen1.png
+
+En este módulo mostraremos cómo la teoría de matrices nos permite 're-calcular' con relativa facilidad y eficiencia las nuevas coordenadas de los vértices que definen el objeto y, por consiguiente, facilita la 'dinamización' de objetos en la pantalla.
+
+
+Transformaciones geométricas en 3D
+La teoría expuesta para las transformaciones geométricas en 2D se puede extender a 3D mediante la in- corporación de la coordenada espacial z. En el caso de la traslación, el vector de traslación tendrá ahora tres componentes en lugar de dos. En el caso del escalado, deberemos considerar tres factores de escala (uno por cada eje de coordenadas). Finalmente, el concepto de rotación también se puede generalizar a 3D, si bien éste presenta algunos aspectos técnicos que requieren de especial atención: en 2D las rotaciones se producen sólo en el plano xy (el eje de rotación siempre es paralelo al eje z); por su parte, en 3D las rotaciones se podrán efectuar tomando como eje de rotación cualquier recta del espacio tridimensional (no necesariamente paralela a alguno de los tres ejes coordenados).
+
+De forma análoga a lo que ocurriría en 2D, también en 3D es posible utilizar notación matricial para expresar las transformaciones geométrica. Así, cualquier combinación de transformaciones podrá ser representada por una matriz que se obtendrá al realizar el producto de las respectivas matrices asociadas a cada una de las transformaciones individuales.
