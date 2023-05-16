@@ -32,7 +32,6 @@ El mundo no se acaba con los operadores new y delete. Desde la versión 11 de C+
 
 https://www.youtube.com/watch?v=4f87Rtquj6M
 
-
 Puntero inteligente (Smart Pointers) https://quark.academy/mod/page/view.php?id=3928
 
 

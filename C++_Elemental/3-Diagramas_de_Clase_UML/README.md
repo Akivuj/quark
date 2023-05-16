@@ -4,8 +4,7 @@ Diagramas de Clase UML
 
 Vamos a lo importante; ya diste tus primeros pasos con el lenguaje C++ y aprendiste a desarrollar aplicaciones con Programación orientada a objetos. Ahora bien, el paradigma orientado a objetos no sólo implica "programar" sino también llevar a cabo otras actividades del Ciclo de Vida del Software, como por ejemplo "diseñar". En el siguiente esquema podrás ver el ciclo de vida del software:
 
-ciclo-de-vida
-
+ciclo-de-vida https://quark.academy/pluginfile.php/3255/course/section/290/ciclo-de-vida.jpg
 
 Todo muy lindo 🌈 pero... ¿Qué es el ciclo de vida del software?. Lo respondemos en el siguiente video:
 
