@@ -1,4 +1,3 @@
-logo-quark
 ¡Bienvenid@ al curso de C++!
 
 ¿De qué trata este curso?
@@ -43,13 +42,10 @@ Todos los módulos de este curso tienen su propia insignia, esto significa que s
 Para más información sobre el desafío final dirígete hacia la pestaña "Desafío Final", allí encontrarás todo lo referido al desafío.
 
 
-Ruta de aprendizaje
-camino_c++
  
-
 La comunidad general de Quark Academy
 
-Parte de la experiencia QUARK consiste en formar parte de una comunidad en la cual podrás interactuar con otras personas, compartir conocimientos, hablar sobre temas referidos a videojuegos, desarrollo de software y, por sobre todas las cosas, ¡divertirte y aprender!. Para ello contamos con un servidor de Discord.
+Parte de la experiencia QUARK consiste en formar parte de una comunidad en la cual podrás interactuar con otras personas, compartir conocimientos, hablar sobre temas referidos a videojuegos, desarrollo de software y, por sobre todas las cosas, ¡divertirte y aprender!. Para ello contamos con un servidor de Discord(https://discord.com/).
 
 La dirección del servidor general es: 
 
