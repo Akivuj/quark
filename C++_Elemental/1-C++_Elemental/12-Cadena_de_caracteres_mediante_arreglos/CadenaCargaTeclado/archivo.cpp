@@ -1,14 +1,16 @@
-// #include<iostream>
+// Confeccionar un programa que defina una cadena de caracteres para almacenar el nombre y apellido de una persona. La carga del dato hacerla por teclado.// #include<iostream>
+
+// #include <iostream>
 
 // using namespace std;
 
 // int main()
 // {
-//     char mes1[20]="enero";
-//     char mes2[20]="febrero";
-//     cout <<mes1;
-//     cout <<"\n";
-//     cout <<mes2;
+//     char nombre[40];
+//     cout <<"Ingrese su nombre:";
+//     cin.getline(nombre,40);
+//     cout <<"El nombre ingresado es:";
+//     cout <<nombre;
 //     return 0;
 // }
 
@@ -16,7 +18,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     char nombre[40], apellido[40];
     cout << "Ingrese el nombre de la persona:";
     cin.getline(nombre, 40);

@@ -1,3 +1,5 @@
+// Confeccionar un programa que defina dos arreglos de caracteres con los nombres de meses de "enero" y "febrero". Mostrar luego por pantalla los dos vectores
+
 // #include<iostream>
 
 // using namespace std;
@@ -16,7 +18,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     char cadena1[6] = "enero";
     char cadena2[8] = "febrero";
     cout << cadena1;

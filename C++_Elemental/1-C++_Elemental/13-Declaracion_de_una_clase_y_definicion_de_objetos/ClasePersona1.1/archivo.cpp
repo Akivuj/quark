@@ -1,3 +1,5 @@
+// Confeccionar una clase que permita cargar el nombre y la edad de una persona. Mostrar los datos cargados. Imprimir un mensaje si es mayor de edad (edad>=18) o no
+
 // #include <iostream>
 
 // using namespace std;
@@ -27,9 +29,10 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     char nombre[40];
-    int  edad;
+    int edad;
     cout << "Ingrese el nombre de la persona:";
     cin.getline(nombre, 40);
     cout << "Ingrese la edad de la persona:";
@@ -40,9 +43,12 @@ int main() {
     cout << "La edad de la persona es:";
     cout << edad;
     cout << "\n";
-    if (edad >= 18) {
+    if (edad >= 18)
+    {
         cout << "La persona es mayor de edad.";
-    } else {
+    }
+    else
+    {
         cout << "La persona es menor de edad.";
     }
     return 0;
